@@ -1,0 +1,22 @@
+.onboardHero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(1, 11, 20, 0.7)), url("../images/card1.jpg");
+  height: 93vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.contentHero {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.contentHero h1 {
+  margin: 0 18rem;
+  font-size: 7rem;
+}

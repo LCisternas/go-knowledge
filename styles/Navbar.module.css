@@ -1,0 +1,101 @@
+.navContainer {
+  background-color: #002060;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.navLogo {
+  margin-left: 10rem;
+}
+.navLinks {
+  margin-right: 10rem;
+}
+.navLinks a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.navLinks a:hover {
+  font-size: 2.5rem;
+  margin: 0 2rem;
+}
+.menuIcon {
+  display: none;
+}
+.showSidebar {
+  height: 100vh;
+  width: 60%;
+  top: 0;
+  right: 0;
+  position: fixed;
+  transition: all 0.3s;
+  background-color: #4054B2;
+  color: white;
+}
+.hiddenSidebar {
+  height: 100vh;
+  width: 0%;
+  top: 0;
+  right: -200%;
+  position: fixed;
+  transition: 300ms;
+  background-color: black;
+}
+.sidebarButton {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 3px solid white;
+}
+.sidebarButton button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 3.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.sidebarLinks {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebarLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+@media all and (max-width: 768px) {
+  .menuIcon {
+    display: flex;
+    margin-right: 2rem;
+  }
+  .menuIcon button {
+    font-size: 3.5rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .navLinks {
+    display: none;
+  }
+  .navLogo {
+    margin-left: 2rem;
+  }
+  .navContainer {
+    height: 10vh;
+  }
+}

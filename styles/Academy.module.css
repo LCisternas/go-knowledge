@@ -1,0 +1,79 @@
+.academyHero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(1, 11, 20, 0.7)), url("../images/card2.jpg");
+  height: 93vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroContent {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.heroContent h1 {
+  margin: 3rem 0;
+  font-size: 6rem;
+}
+.heroContent h2 {
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+}
+.academyAbout {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+.aboutContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImage {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutContent h1 {
+  margin: 5rem 0;
+  font-size: 4.5rem;
+}
+.aboutContent p {
+  margin: 0 10rem;
+  line-height: 1.8;
+  font-size: 1.8rem;
+}
+.academyCourses {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.academyCourses h1 {
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 4.5rem;
+}
+.gridCourses {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.courseCard {
+  margin: 5rem;
+}
+.courseCard h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
