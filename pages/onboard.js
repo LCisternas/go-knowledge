@@ -8,9 +8,9 @@ const Onboard = () => {
       <div className={style.onboardHero}>
         <div className={style.contentHero}>
           <h1>
-            Bienvenido a GoSCM<br />
-            Tu carrera comienza aqui...
+            ¡Bienvenido a GoSCM!
           </h1>
+          <h2>Tu carrera comienza aqui</h2>
         </div>
       </div>
     </Layout>

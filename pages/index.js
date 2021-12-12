@@ -9,6 +9,7 @@ export default function Home() {
           <h1>Go-Knowledge</h1>
           <p>Bienvenido a nuestra plataforma...</p>
         </div>
+        
         <div className={style.homeMedia}>
           <div className={style.homeOnboard} >
             <div className={style.contentCard}>

@@ -20,41 +20,49 @@ const Academy = () => {
           <h2>¡Aprende, certificate y crece!</h2>
         </div>
       </div>
+
       <div className={style.academyAbout}>
         <div className={style.aboutContent}>
           <h1>What is Go-knowledge Academy?</h1>
-          <p>...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida leo sed ullamcorper porta. Phasellus sollicitudin at massa eget viverra. Maecenas in enim at lacus condimentum aliquet faucibus sed velit. Cras viverra fringilla orci, at rutrum ex hendrerit id. Maecenas dignissim, sem posuere gravida auctor, nibh lorem volutpat quam, eget sollicitudin lectus eros a velit. Phasellus accumsan risus eget viverra maximus. Nunc tincidunt rutrum dolor, in iaculis turpis lobortis at. Curabitur aliquet rutrum ullamcorper. In in lacus congue, gravida ante et, condimentum nisi. Suspendisse a vulputate arcu, at luctus elit. Fusce in rhoncus eros.</p>
         </div>
         <div className={style.aboutImage}>
           <Image src={AboutImage} width={600} height={350} />
         </div>
       </div>
+
       <div className={style.academyCourses}>
         <h1>Cursos</h1>
+
         <div className={style.gridCourses}>
           <div className={style.courseCard}>
             <Image src={c1} width={400} height={400} />
-            <h2>Modulo de demanda (basico-intermedio)</h2>
+            <h2>Modulo de demanda I</h2>
           </div>
+
           <div className={style.courseCard}>
             <Image src={c2} width={400} height={400} />
-            <h2>Modulo de inventario (basico-intermedio)</h2>
+            <h2>Modulo de inventario I</h2>
           </div>
+
           <div className={style.courseCard}>
             <Image src={c3} width={400} height={400} />
-            <h2>Modulo de supply (basico-intermedio)</h2>
+            <h2>Modulo de supply I</h2>
           </div>
+
           <div className={style.courseCard}>
             <Image src={c4} width={400} height={400} />
             <h2>Modulo de demanda (avanzado)</h2>
           </div>
+
           <div className={style.courseCard}>
             <Image src={c5} width={400} height={400} />
-            <h2>Modulo de inventario (avanzado)</h2>
+            <h2>Modulo de inventario II</h2>
           </div>
+          
           <div className={style.courseCard}>
             <Image src={c6} width={400} height={400} />
-            <h2>Modulo de supply (avanzado)</h2>
+            <h2>Modulo de supply II</h2>
           </div>
         </div>
       </div>
