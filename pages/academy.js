@@ -22,14 +22,14 @@ const Academy = () => {
         </div>
       </div>
 
-      <div className={style.academyAbout}>
+      {/* <div className={style.academyAbout}>
         <div className={style.aboutContent}>
           <Image src={aboutImage2} width={280} height={180} />
         </div>
         <div className={style.aboutImage}>
           <Image src={AboutImage} width={450} height={80} />
         </div>
-      </div>
+      </div> */}
 
       <div className={style.academyCourses}>
         <h1>Cursos</h1>
