@@ -1,12 +1,13 @@
 .academyHero {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(1, 11, 20, 0.7)), url("../images/card2.jpg");
-  height: 93vh;
+  height: 70vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f3f0ec;
 }
 .heroContent {
   width: 100%;
@@ -23,7 +24,7 @@
   font-size: 4rem;
 }
 .academyAbout {
-  height: 150vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Layout from '../components/Layout';
 
 import style from '../styles/Academy.module.css';
-import AboutImage from '../images/imagen2.png';
+import AboutImage from '../images/logoV2.png';
+import aboutImage2 from '../images/academyimage.png';
 import c1 from '../images/course1.jpg';
 import c2 from '../images/course2.jpg';
 import c3 from '../images/course3.jpg';
@@ -23,11 +24,10 @@ const Academy = () => {
 
       <div className={style.academyAbout}>
         <div className={style.aboutContent}>
-          <h1>What is Go-knowledge Academy?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida leo sed ullamcorper porta. Phasellus sollicitudin at massa eget viverra. Maecenas in enim at lacus condimentum aliquet faucibus sed velit. Cras viverra fringilla orci, at rutrum ex hendrerit id. Maecenas dignissim, sem posuere gravida auctor, nibh lorem volutpat quam, eget sollicitudin lectus eros a velit. Phasellus accumsan risus eget viverra maximus. Nunc tincidunt rutrum dolor, in iaculis turpis lobortis at. Curabitur aliquet rutrum ullamcorper. In in lacus congue, gravida ante et, condimentum nisi. Suspendisse a vulputate arcu, at luctus elit. Fusce in rhoncus eros.</p>
+          <Image src={aboutImage2} width={500} height={300} />
         </div>
         <div className={style.aboutImage}>
-          <Image src={AboutImage} width={600} height={350} />
+          <Image src={AboutImage} width={500} height={120} />
         </div>
       </div>
 
