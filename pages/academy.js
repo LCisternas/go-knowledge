@@ -39,7 +39,7 @@ const Academy = () => {
             <Image src={c1} />
             <div className={style.infoCard} >
               <h2>Modulo de demanda I</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const Academy = () => {
             <Image src={c2} />
             <div className={style.infoCard}>
               <h2>Modulo de inventario I</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const Academy = () => {
             <Image src={c3} />
             <div className={style.infoCard}>
               <h2>Modulo de supply I</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ const Academy = () => {
             <Image src={c4} />
             <div className={style.infoCard}>
               <h2>Modulo de demanda II</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ const Academy = () => {
             <Image src={c5} />
             <div className={style.infoCard}>
               <h2>Modulo de inventario II</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
           
@@ -79,7 +79,7 @@ const Academy = () => {
             <Image src={c6} />
             <div className={style.infoCard}>
               <h2>Modulo de supply II</h2>
-              <button type='button'>Ver mas</button>
+              <button type='button'>Detalles</button>
             </div>
           </div>
         </div>

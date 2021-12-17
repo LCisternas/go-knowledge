@@ -41,7 +41,10 @@ const Navbar = () => {
         <div className={style.sidebarLinks}>
           <Link onClick={() => setSidebar(!sidebar)} href='/'>Home</Link>
           <Link onClick={() => setSidebar(!sidebar)} href='/onboard'>Onboard</Link>
+          <Link onClick={() => setSidebar(!sidebar)} href='/aliados-industrias'>Aliados</Link>
           <Link onClick={() => setSidebar(!sidebar)} href='/academy'>Academy</Link>
+          <Link onClick={() => setSidebar(!sidebar)} href='/podcast'>Podcast</Link>
+          <Link onClick={() => setSidebar(!sidebar)} href='/help-online'>Help</Link>
         </div>
       </div>
 

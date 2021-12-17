@@ -23,6 +23,7 @@
 .homeContent p {
   font-size: 1.8rem;
   font-weight: 600;
+  text-align: center;
 }
 .homeMedia {
   width: 100%;
@@ -73,6 +74,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-align: center;
 }
 .contentCard h1 {
   font-size: 2.5rem;
