@@ -24,10 +24,10 @@ const Academy = () => {
 
       <div className={style.academyAbout}>
         <div className={style.aboutContent}>
-          <Image src={aboutImage2} width={500} height={300} />
+          <Image src={aboutImage2} width={280} height={180} />
         </div>
         <div className={style.aboutImage}>
-          <Image src={AboutImage} width={500} height={120} />
+          <Image src={AboutImage} width={450} height={80} />
         </div>
       </div>
 
