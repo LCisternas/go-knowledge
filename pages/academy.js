@@ -82,6 +82,22 @@ const Academy = () => {
               <button type='button'>Detalles</button>
             </div>
           </div>
+
+          <div className={style.courseCard}>
+            <Image src={c6} />
+            <div className={style.infoCard}>
+              <h2>Introduccion a la Cadena de suministros</h2>
+              <button type='button'>Detalles</button>
+            </div>
+          </div>
+
+          <div className={style.courseCard}>
+            <Image src={c6} />
+            <div className={style.infoCard}>
+              <h2>Importancia de IBP en la cadena de suministros</h2>
+              <button type='button'>Detalles</button>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
