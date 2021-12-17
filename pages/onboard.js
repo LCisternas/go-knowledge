@@ -12,6 +12,23 @@ const Onboard = () => {
           </h1>
           <h2>Tu carrera comienza aqui</h2>
         </div>
+        
+        <div className={style.loginForm}>
+          <form>
+            <h1>Login</h1>
+            <input 
+              type='text'
+              placeholder='Nombre de usuario'
+            />
+            <input 
+              type='password'
+              placeholder='Contraseña'
+            />
+            <button
+              type='button'
+            >Iniciar Sesión</button>
+          </form>
+        </div>
       </div>
     </Layout>
   );

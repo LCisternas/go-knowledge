@@ -10,6 +10,9 @@
 .navLogo {
   margin-left: 10rem;
 }
+.navLogo img {
+  cursor: pointer;
+}
 .navLinks {
   margin-right: 10rem;
 }

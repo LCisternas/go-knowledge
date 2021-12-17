@@ -12,14 +12,18 @@ const Navbar = () => {
   return (
     <div className={style.navContainer} >
       <div className={style.navLogo} >
-        <Image src={Logo} width={150} height={35} />
+        <Link href='/'>
+          <Image src={Logo} width={150} height={35} />
+        </Link>
       </div>
 
       <div className={style.navLinks}>
         <Link href='/'>Home</Link>
         <Link href='/onboard'>Onboarding</Link>
+        <Link href='/aliados-industrias'>Aliados</Link>
         <Link href='/academy'>Academy</Link>
         <Link href='/podcast'>Podcast</Link>
+        <Link href='/help-online'>Help</Link>
       </div>
       <div className={style.menuIcon}>
         <button

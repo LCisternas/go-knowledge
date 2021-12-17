@@ -36,33 +36,51 @@ const Academy = () => {
 
         <div className={style.gridCourses}>
           <div className={style.courseCard}>
-            <Image src={c1} width={400} height={400} />
-            <h2>Modulo de demanda I</h2>
+            <Image src={c1} />
+            <div className={style.infoCard} >
+              <h2>Modulo de demanda I</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
 
           <div className={style.courseCard}>
-            <Image src={c2} width={400} height={400} />
-            <h2>Modulo de inventario I</h2>
+            <Image src={c2} />
+            <div className={style.infoCard}>
+              <h2>Modulo de inventario I</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
 
           <div className={style.courseCard}>
-            <Image src={c3} width={400} height={400} />
-            <h2>Modulo de supply I</h2>
+            <Image src={c3} />
+            <div className={style.infoCard}>
+              <h2>Modulo de supply I</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
 
           <div className={style.courseCard}>
-            <Image src={c4} width={400} height={400} />
-            <h2>Modulo de demanda (avanzado)</h2>
+            <Image src={c4} />
+            <div className={style.infoCard}>
+              <h2>Modulo de demanda II</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
 
           <div className={style.courseCard}>
-            <Image src={c5} width={400} height={400} />
-            <h2>Modulo de inventario II</h2>
+            <Image src={c5} />
+            <div className={style.infoCard}>
+              <h2>Modulo de inventario II</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
           
           <div className={style.courseCard}>
-            <Image src={c6} width={400} height={400} />
-            <h2>Modulo de supply II</h2>
+            <Image src={c6} />
+            <div className={style.infoCard}>
+              <h2>Modulo de supply II</h2>
+              <button type='button'>Ver mas</button>
+            </div>
           </div>
         </div>
       </div>

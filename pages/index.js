@@ -1,4 +1,5 @@
 import Layout from "../components/Layout"
+import Link from "next/link";
 import style from '../styles/Home.module.css';
 
 export default function Home() {
@@ -11,24 +12,41 @@ export default function Home() {
         </div>
         
         <div className={style.homeMedia}>
-          <div className={style.homeOnboard} >
-            <div className={style.contentCard}>
-              <h1>Onboarding</h1>
-              <p>Bienvenidos a Go-Guys...</p>
+          <Link href='/onboard'>
+            <div className={style.homeOnboard} >
+              <div className={style.contentCard}>
+                <h1>Onboarding</h1>
+                <p>Bienvenidos a Go-Guys...</p>
+              </div>
             </div>
-          </div>
-          <div className={style.homeAcademy} >
-            <div className={style.contentCard}>
-              <h1>Academy</h1>
-              <p>Certificaciones IBP...</p>
+          </Link>
+
+          <Link href='/academy'>
+            <div className={style.homeAcademy} >
+              <div className={style.contentCard}>
+                <h1>Academy</h1>
+                <p>Certificaciones IBP...</p>
+              </div>
             </div>
-          </div>
-          <div className={style.homePodcast} >
-            <div className={style.contentCard}>
-              <h1>Podcast</h1>
-              <p>Testimonios de nuestros clientes...</p>
+          </Link>
+
+          <Link href='/podcast'>
+            <div className={style.homePodcast} >
+              <div className={style.contentCard}>
+                <h1>Podcast</h1>
+                <p>Testimonios de nuestros clientes...</p>
+              </div>
             </div>
-          </div>
+          </Link>
+
+          <Link href='/help-online'>
+            <div className={style.homeHelp} >
+              <div className={style.contentCard}>
+                <h1>¡Help!</h1>
+                <p>Te ayudamos a solucionar tus problemas</p>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </Layout>
